@@ -1,0 +1,132 @@
+.home-content {
+  text-transform: capitalize;
+  padding: 5%;
+}
+
+.home-content h1 {
+  text-align: center;
+}
+
+.home-content form {
+  -webkit-animation: null .1s 5 linear;
+          animation: null .1s 5 linear;
+  overflow: hidden;
+  width: 70%;
+  margin: 5% auto;
+  background: #fff;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 15px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px, rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 15px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px, rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+}
+
+.home-content form input {
+  display: block;
+  border: none;
+  padding: 10px;
+  margin: 10px 5px;
+  outline: none;
+  background: #ffa3a31f;
+}
+
+.home-content form input:focus + span {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+  margin: 10px auto;
+}
+
+.home-content form button[type="submit"] {
+  padding: 10px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+  background: #fff;
+  outline: none;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 1px solid #ec5b5b;
+  color: #ec5b5b;
+}
+
+.home-content form button[type="submit"]:hover {
+  border-color: #fff;
+  color: #fff;
+  background: #ec5b5b;
+}
+
+.home-content form label {
+  position: relative;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.home-content form a {
+  text-decoration: none;
+  margin: 10px 0px;
+  color: #ec5b5b;
+}
+
+.home-content span {
+  margin: 10px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  content: "";
+  background: #ed2c49;
+  height: 2px;
+  width: 100%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  opacity: 0;
+}
+
+@-webkit-keyframes falsecheck {
+  from {
+    position: relative;
+    right: 30px;
+  }
+  to {
+    position: relative;
+    left: 30px;
+  }
+}
+
+@keyframes falsecheck {
+  from {
+    position: relative;
+    right: 30px;
+  }
+  to {
+    position: relative;
+    left: 30px;
+  }
+}
+
+@-webkit-keyframes truecheck {
+  from {
+    position: relative;
+    top: 30px;
+  }
+  to {
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+@keyframes truecheck {
+  from {
+    position: relative;
+    top: 30px;
+  }
+  to {
+    position: relative;
+    bottom: 30px;
+  }
+}
+/*# sourceMappingURL=sigin.css.map */

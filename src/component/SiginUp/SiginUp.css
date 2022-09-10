@@ -1,0 +1,200 @@
+.siginup {
+  text-transform: capitalize;
+  padding: 5%;
+}
+
+.siginup h1 {
+  text-align: center;
+}
+
+.siginup form {
+  -webkit-animation: null .1s 5 linear;
+          animation: null .1s 5 linear;
+  overflow: hidden;
+  width: 70%;
+  margin: 5% auto;
+  background: #fff;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 15px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px, rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 15px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px, rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+}
+
+.siginup form input {
+  display: block;
+  border: none;
+  padding: 10px;
+  margin: 10px 5px;
+  outline: none;
+  background: #ffa3a31f;
+}
+
+.siginup form input:focus + span {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+  margin: 10px auto;
+}
+
+.siginup form input[type="submit"] {
+  padding: 10px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+  background: #fff;
+  outline: none;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: 1px solid #ec5b5b;
+  color: #ec5b5b;
+}
+
+.siginup form input[type="submit"]:hover {
+  border-color: #fff;
+  color: #fff;
+  background: #ec5b5b;
+}
+
+.siginup form a {
+  text-decoration: none;
+  margin: 10px 0px;
+  color: #ec5b5b;
+}
+
+.siginup form label {
+  position: relative;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.siginup span {
+  margin: 10px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  content: "";
+  background: #ed2c49;
+  height: 2px;
+  width: 100%;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  opacity: 0;
+}
+
+@-webkit-keyframes falsecheck {
+  from {
+    position: relative;
+    right: 30px;
+  }
+  to {
+    position: relative;
+    left: 30px;
+  }
+}
+
+@keyframes falsecheck {
+  from {
+    position: relative;
+    right: 30px;
+  }
+  to {
+    position: relative;
+    left: 30px;
+  }
+}
+
+@-webkit-keyframes truecheck {
+  from {
+    position: relative;
+    top: 30px;
+  }
+  to {
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+@keyframes truecheck {
+  from {
+    position: relative;
+    top: 30px;
+  }
+  to {
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content-img {
+    display: none;
+  }
+  .siginup .container form {
+    width: 100%;
+    color: #333;
+    background: #fff;
+  }
+  .siginup .container form input {
+    border: 1px solid #70707061;
+  }
+}
+
+/* //  form{
+            overflow:hidden;
+            width: 70%;
+            margin:5% auto;
+            background:#fff;
+            padding:5%;
+             display: flex;
+            flex-flow: column;
+            box-shadow:rgba(0, 0, 0, 0.1) 0px 4px 15px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px, rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+            input{
+                    display:block;
+                    border: none;
+                    padding: 10px;
+                    margin: 10px 5px;
+                    // box-shadow: rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+                    outline:none;
+                    background:#ffa3a31f;
+                    &:focus + span{
+                          transform:translateX(0%);
+                 opacity:1;
+                   margin: 10px auto;
+
+                    }
+            }button[type="submit"]{
+                padding: 10px;
+                transition:all .4s ease-in-out;
+                cursor:pointer;
+    background: #fff;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid #ec5b5b;
+    color: #ec5b5b;
+    &:hover{
+        border-color:#fff;
+        color:#fff;
+        background: #ec5b5b;
+    }
+            }
+            label{
+                position:relative;
+                transition:all .1s ease-in-out;
+                    }
+                      }
+                   span{    margin: 10px;
+                                transition:all .3s ease-in-out;
+                                content: "";
+                                background: rgb(237, 44, 73);
+                                height: 2px;
+                                width: 100%;
+                                 transform:translateX(100%);
+                                opacity:0;
+                    }*/
+/*# sourceMappingURL=SiginUp.css.map */

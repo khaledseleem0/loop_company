@@ -1,0 +1,153 @@
+.siginup{
+    text-transform: capitalize;
+    padding: 5%;
+    h1{
+        text-align:center;
+    }
+    form{
+        animation: null .1s 5 linear;
+        overflow:hidden;
+        width: 70%;
+        margin:5% auto;
+        background:#fff;
+        padding:5%;
+         display: flex;
+        flex-flow: column;
+        box-shadow:rgba(0, 0, 0, 0.1) 0px 4px 15px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px, rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+        input{
+            display:block;
+            border: none;
+            padding: 10px;
+            margin: 10px 5px;
+            outline:none;
+            background:#ffa3a31f;
+            &:focus + span{
+                  transform:translateX(0%);
+         opacity:1;
+           margin: 10px auto;
+
+            }
+    }input[type="submit"]{
+        padding: 10px;
+        transition:all .4s ease-in-out;
+        cursor:pointer;
+background: #fff;
+outline: none;
+text-transform: capitalize;
+border-radius: 5px;
+border: 1px solid #ec5b5b;
+color: #ec5b5b;
+&:hover{
+border-color:#fff;
+color:#fff;
+background: #ec5b5b;
+}
+    }
+    a{
+        text-decoration: none;
+        margin: 10px 0px ;
+        color:#ec5b5b
+    }
+    label{
+        position:relative;
+        transition:all .1s ease-in-out;
+            }
+              }
+           span{    margin: 10px;
+                        transition:all .3s ease-in-out;
+                        content: "";
+                        background: rgb(237, 44, 73);
+                        height: 2px;
+                        width: 100%;
+                         transform:translateX(100%);
+                        opacity:0;
+            }
+
+    }
+   
+
+
+   @keyframes falsecheck{
+       from{
+           position: relative;
+           right: 30px;
+        }to{
+        position: relative;
+        left: 30px;
+       }
+   }
+   @keyframes truecheck{
+       from{
+        position: relative;
+           top: 30px;
+        }to{
+        position: relative;
+        bottom: 30px;
+
+       }
+   }
+        @media screen and(max-width:700px){
+            .content-img{ display:none}
+            .siginup .container form{
+                width:100%;
+                color:#333;
+                background:#fff;
+                input{
+                    border: 1px solid #70707061;
+                }
+            }
+        }
+
+       /* //  form{
+            overflow:hidden;
+            width: 70%;
+            margin:5% auto;
+            background:#fff;
+            padding:5%;
+             display: flex;
+            flex-flow: column;
+            box-shadow:rgba(0, 0, 0, 0.1) 0px 4px 15px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px 0px, rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+            input{
+                    display:block;
+                    border: none;
+                    padding: 10px;
+                    margin: 10px 5px;
+                    // box-shadow: rgba(237, 44, 73, 0.5) 0px 2px 0px 0px inset;
+                    outline:none;
+                    background:#ffa3a31f;
+                    &:focus + span{
+                          transform:translateX(0%);
+                 opacity:1;
+                   margin: 10px auto;
+
+                    }
+            }button[type="submit"]{
+                padding: 10px;
+                transition:all .4s ease-in-out;
+                cursor:pointer;
+    background: #fff;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid #ec5b5b;
+    color: #ec5b5b;
+    &:hover{
+        border-color:#fff;
+        color:#fff;
+        background: #ec5b5b;
+    }
+            }
+            label{
+                position:relative;
+                transition:all .1s ease-in-out;
+                    }
+                      }
+                   span{    margin: 10px;
+                                transition:all .3s ease-in-out;
+                                content: "";
+                                background: rgb(237, 44, 73);
+                                height: 2px;
+                                width: 100%;
+                                 transform:translateX(100%);
+                                opacity:0;
+                    }*/

@@ -1,0 +1,35 @@
+[
+    ["./images/desktop/image-curiosity.jpg",
+        "./images/desktop/image-deep-earth.jpg",
+        "./images/desktop/image-fisheye.jpg",
+        "./images/desktop/image-from-above.jpg",
+        "./images/desktop/image-night-arcade.jpg",
+        "./images/desktop/image-soccer-team.jpg",
+        "./images/desktop/image-pocket-borealis.jpg",
+        "./images/desktop/image-grid.jpg"
+    ],
+    [
+        "./images/icon-facebook.svg",
+        "./images/icon-instagram.svg",
+        "./images/icon-pinterest.svg",
+        "./images/icon-twitter.svg"
+    ],
+    [   "./images/desktop/demo3.jpg",
+        "./images/desktop/demo1.jpg",
+        "./images/desktop/demo2.jpg",
+        "./images/desktop/demo3.jpg",
+        "./images/desktop/demo4.jpg",
+        "./images/desktop/demo5.jpg",
+        "./images/desktop/demo6.jpg",
+        "./images/desktop/demo7.jpg",
+        "./images/desktop/demo8.jpg",
+        "./images/desktop/demo12.jpg",
+        "./images/desktop/demo10.jpg",
+        "./images/desktop/demo11.jpg",
+        "./images/desktop/demo12.jpg",
+        "./images/desktop/demo13.jpg"
+
+    ]
+
+
+]
